@@ -15,6 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class UserServiceImpl implements UserService {
+	
 	@Value("${sp.user-service.users}")
 	private String userJson;
 
